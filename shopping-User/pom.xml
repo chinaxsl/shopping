@@ -6,7 +6,7 @@
 	<groupId>com.xsl</groupId>
 	<artifactId>shopping-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>com.xsl</groupId>
