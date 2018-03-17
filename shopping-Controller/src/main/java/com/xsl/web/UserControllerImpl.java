@@ -3,13 +3,12 @@ package com.xsl.web;/**
  */
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.sun.deploy.net.HttpResponse;
 import com.xsl.model.LoginReq;
 import com.xsl.model.Result;
 import com.xsl.service.UserService;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @program: shopping
@@ -23,7 +22,7 @@ public class UserControllerImpl implements UserController {
     private UserService userService;
 
     @Override
-    public Result login(LoginReq loginReq, HttpResponse response) {
+    public Result login(LoginReq loginReq, HttpServletResponse httpResponse) {
         return null;
     }
 }
