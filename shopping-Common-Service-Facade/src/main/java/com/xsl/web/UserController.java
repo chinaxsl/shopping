@@ -1,6 +1,7 @@
 package com.xsl.web;
 
 import com.xsl.model.LoginReq;
+import com.xsl.model.Result;
 
 import javax.servlet.http.HttpServletRequest;
 

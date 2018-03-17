@@ -4,6 +4,7 @@ package com.xsl.web;/**
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.xsl.model.LoginReq;
+import com.xsl.model.Result;
 import com.xsl.service.UserService;
 import org.springframework.web.bind.annotation.RestController;
 
