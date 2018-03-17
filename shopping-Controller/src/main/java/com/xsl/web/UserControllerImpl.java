@@ -3,6 +3,7 @@ package com.xsl.web;/**
  */
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.sun.deploy.net.HttpResponse;
 import com.xsl.model.LoginReq;
 import com.xsl.model.Result;
 import com.xsl.service.UserService;
@@ -20,8 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 public class UserControllerImpl implements UserController {
     @Reference(version = "1.0.0")
     private UserService userService;
+
     @Override
-    public Result login(LoginReq loginReq, HttpServletRequest request) {
+    public Result login(LoginReq loginReq, HttpResponse response) {
         return null;
     }
 }
